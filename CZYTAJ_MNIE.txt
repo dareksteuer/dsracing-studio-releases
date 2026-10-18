@@ -1,0 +1,52 @@
+DSRacing Buttonbox Studio — instalator R102 / funkcje Studio R100
+
+POLSKI
+1. Pobierz DSRacingStudio-Setup.exe. Uruchom pobrany plik i kliknij Zainstaluj.
+2. Zamknij poprzednio uruchomione Studio. Instalacja dotyczy bieżącego użytkownika.
+3. Brakujący Microsoft WebView2 jest instalowany z pakietu Microsoft; potrzebny internet.
+4. Skróty: pulpit i menu Start. Program: %LOCALAPPDATA%\DSR\ButtonboxStudio.
+5. Ustawienia znajdują się w podfolderze Dane. Aktualizacja ich nie nadpisuje.
+6. Pomocnik synchronizacji czasu jest uruchamiany przy logowaniu do Windows.
+   Synchronizacja pozostaje jednorazowa dla danego uruchomienia, bez okresowych korekt.
+7. Funkcje 3 USB i dotychczasowe grafiki zachowano. Instalator nie wgrywa firmware.
+   Eksperymentalne RS485/DS3231 nie są częścią tej paczki.
+8. Mostek SimHub jest dołączony jako SimHub_Bridge/DsrStudioBridge.dll.
+   Konfiguracja na docelowym komputerze pozostaje osobnym etapem; instalator jej nie zmienia.
+9. Odinstalowanie: Ustawienia Windows / Zainstalowane aplikacje / DSRacing Buttonbox Studio.
+   Profile i kopie poprzednich wersji pozostają na dysku.
+10. Log instalacji: %TEMP%\DSRacing-Setup-*.log. Log programu: Studio_diagnostics.log.
+
+Wymagania: Windows 10/11, .NET Framework 4.6.2 lub nowszy (zalecany 4.8), WebView2.
+Instalator i Studio nie mają komercyjnego podpisu cyfrowego. Windows może wyświetlić
+ostrzeżenie o nieznanym wydawcy. Suma SHA256 pozwala porównać pobrany plik z wydaniem.
+Nie wyłączaj ochrony Windows. W razie blokady przekaż dokładny komunikat.
+Link pobiera instalator; jego uruchomienie wymaga działania użytkownika.
+Źródła projektu i prywatne profile nie są publikowane. Zasoby interfejsu są częścią
+pliku wykonywalnego; nie jest to zabezpieczenie przed analizą programu.
+Znaki marek należą do ich właścicieli; aplikacja nie deklaruje współpracy z tymi markami.
+
+DEUTSCH
+DSRacingStudio-Setup.exe herunterladen, öffnen und Installieren wählen.
+Studio vorher schließen. Installation für den aktuellen Benutzer, Desktop/Startmenü-Verknüpfungen.
+Fehlendes Microsoft WebView2 wird mit Internetzugang installiert. Profile bleiben erhalten.
+Windows 10/11, .NET Framework 4.6.2 oder neuer (4.8 empfohlen). Kein Firmware-Update.
+SimHub wird separat eingerichtet. RS485/DS3231-Testversionen sind nicht enthalten.
+Nicht digital signiert: Windows kann einen unbekannten Herausgeber melden.
+Windows-Schutz nicht deaktivieren. Fehlertext zur Diagnose aufbewahren.
+Deinstallation über Windows-Einstellungen; Profile und Sicherungen bleiben erhalten.
+
+ENGLISH
+Download DSRacingStudio-Setup.exe, open it and select Install. Close Studio first.
+Per-user installation with desktop and Start menu shortcuts. Existing profiles are preserved.
+Missing Microsoft WebView2 is installed using Microsoft's bootstrapper; internet is required.
+Windows 10/11, .NET Framework 4.6.2 or later (4.8 recommended). No firmware flashing.
+SimHub setup is a separate step. Experimental RS485/DS3231 builds are not included.
+Not digitally signed: Windows may warn about an unknown publisher. Do not disable protection.
+Uninstall through Windows Settings. User profiles and backups are retained.
+Project source and private user data are not published. Bundled executable resources can
+still be analyzed; binary distribution is not protection against reverse engineering.
+
+Microsoft WebView2 documentation:
+https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution
+Microsoft WebView2 licenses: WebView2-LICENSE.txt and WebView2-NOTICE.txt in the installed folder.
+
