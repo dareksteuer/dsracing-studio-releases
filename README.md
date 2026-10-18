@@ -12,9 +12,15 @@ Aplikacja Windows do Buttonboxa z trzema panelami 1,46″. To repozytorium udost
 
 Link pobiera plik. Przeglądarka i Windows wymagają samodzielnego uruchomienia instalatora; nie jest to instalacja bez zgody użytkownika.
 
-## Wydanie R102
+## Wydanie R105
 
-Pakiet instalacyjny R102 zachowuje funkcje oraz interfejs Studio R100, zgodne z dotychczasowym wariantem trzech USB i panelami R098. Dlatego w interfejsie pozostaje oznaczenie R100.
+R105 dodaje aktualizacje Studio i zachowuje dotychczasowe funkcje, ustawienia oraz obsługę trzech USB. Firmware paneli nie jest częścią aktualizacji.
+
+- Studio sprawdza dostępność nowej wersji raz po uruchomieniu i informuje przyciskiem na dolnym pasku.
+- **O programie i aktualizacje**: wersja programu, opis wydania, ręczne sprawdzenie oraz **Pobierz i zainstaluj**.
+- Pobieranie rozpoczyna się wyłącznie po kliknięciu. Po weryfikacji rozmiaru i SHA-256 Studio zamyka się normalnie, a instalator czeka na zakończenie jego pracy.
+- Brak internetu nie blokuje Studio. Brak okresowego sprawdzania i instalacji w tle.
+- Pierwsze przejście z R102 do R105: pobierz instalator z powyższego linku i zainstaluj go ręcznie. Funkcja aktualizacji jest dostępna dopiero od R105.
 
 - Instalacja dla bieżącego użytkownika do `%LOCALAPPDATA%\DSR\ButtonboxStudio`.
 - Wykrywanie Microsoft WebView2 i instalacja brakującego składnika z oficjalnego pakietu Microsoft.
@@ -30,7 +36,7 @@ Windows 10/11, .NET Framework 4.6.2 lub nowszy (zalecany 4.8), Microsoft WebView
 
 Instalator nie ma komercyjnego podpisu cyfrowego. Windows może ostrzec o nieznanym wydawcy. Nie wyłączaj ochrony systemu; w razie blokady zachowaj dokładny komunikat. Suma SHA256 znajduje się w plikach wydania.
 
-Sprawdzone lokalnie: 56 kontroli instalacji, zachowania profili, kopii, cofania zmian, skrótów i uruchomienia; 72 kombinacje języka, tła i trybu w natywnym WebView2. **Pełny test instalacji na drugim komputerze i test brakującego WebView2 pozostają do wykonania.** Nie wykonano nowego testu USB ani gry w ramach tej paczki.
+Sprawdzone lokalnie: 56 kontroli instalacji, zachowania profili, kopii, cofania zmian, skrótów i uruchomienia; 72 kombinacje języka, tła i trybu w natywnym WebView2. Dodatkowo: 28 kontroli mechanizmu aktualizacji oraz okno PL/DE/EN. Użytkownik potwierdził instalację R102 i podstawowe działanie paneli przez hub na drugim komputerze. Test R105 na drugim komputerze oraz instalacja na systemie bez WebView2 pozostają do wykonania. Nie wykonano nowego testu USB ani gry w ramach tej paczki.
 
 Dziennik instalacji: `%TEMP%\DSRacing-Setup-*.log`. Dane i poprzednie wersje są zachowywane również przy odinstalowaniu.
 
@@ -49,11 +55,11 @@ Instalator oraz ta prezentacja są publiczne. Modele Fusion, pliki produkcyjne, 
 
 ## Deutsch
 
-[Windows-Installer herunterladen](https://github.com/dareksteuer/dsracing-studio-releases/releases/latest/download/DSRacingStudio-Setup.exe). Datei öffnen, Sprache wählen und installieren. Studio vorher schließen. Fehlendes WebView2 wird mit Internetzugang installiert. Profile bleiben erhalten. Keine Firmware-Aktualisierung; SimHub wird separat eingerichtet. Das Programm ist nicht digital signiert.
+[Windows-Installer herunterladen](https://github.com/dareksteuer/dsracing-studio-releases/releases/latest/download/DSRacingStudio-Setup.exe). Datei öffnen, Sprache wählen und installieren. Studio vorher schließen. Fehlendes WebView2 wird mit Internetzugang installiert. Profile bleiben erhalten. Keine Firmware-Aktualisierung; SimHub wird separat eingerichtet. Updates werden einmal beim Start geprüft. Download und Installation nur per Klick unter „Info und Updates“. Beim ersten Wechsel von R102 auf R105 den Installer manuell herunterladen. Das Programm ist nicht digital signiert.
 
 ## English
 
-[Download the Windows installer](https://github.com/dareksteuer/dsracing-studio-releases/releases/latest/download/DSRacingStudio-Setup.exe). Open the downloaded file, choose a language and install. Close Studio first. Missing WebView2 is installed using Microsoft's bootstrapper and requires internet. Existing profiles are preserved. No firmware flashing; SimHub setup is separate. The installer is not digitally signed.
+[Download the Windows installer](https://github.com/dareksteuer/dsracing-studio-releases/releases/latest/download/DSRacingStudio-Setup.exe). Open the downloaded file, choose a language and install. Close Studio first. Missing WebView2 is installed using Microsoft's bootstrapper and requires internet. Existing profiles are preserved. No firmware flashing; SimHub setup is separate. Updates are checked once at startup. Download and install only by clicking in “About and updates”. The initial upgrade from R102 to R105 requires a manual download. The installer is not digitally signed.
 
 ---
 
