@@ -1,4 +1,4 @@
-DSRacing Buttonbox Studio — instalator R102 / funkcje Studio R100
+DSRacing Buttonbox Studio — instalator R105 / funkcje Studio R105
 
 POLSKI
 1. Pobierz DSRacingStudio-Setup.exe. Uruchom pobrany plik i kliknij Zainstaluj.
@@ -50,3 +50,9 @@ Microsoft WebView2 documentation:
 https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution
 Microsoft WebView2 licenses: WebView2-LICENSE.txt and WebView2-NOTICE.txt in the installed folder.
 
+
+
+AKTUALIZACJE / UPDATES R105
+PL: Studio sprawdza wersję raz po uruchomieniu. Pobranie i instalacja tylko po kliknięciu w „O programie i aktualizacje”. Pierwsze przejście z R102 wymaga ręcznego pobrania R105. Ustawienia zachowane, bez aktualizacji firmware.
+DE: Prüfung einmal beim Start. Download und Installation nur per Klick unter „Info und Updates“. R102 zuerst manuell auf R105 aktualisieren. Einstellungen bleiben erhalten, kein Firmware-Update.
+EN: Check once at startup. Download and install only by clicking in “About and updates”. Upgrade R102 to R105 manually first. Settings preserved; no firmware flashing.
