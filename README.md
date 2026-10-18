@@ -34,6 +34,19 @@ Sprawdzone lokalnie: 56 kontroli instalacji, zachowania profili, kopii, cofania 
 
 Dziennik instalacji: `%TEMP%\DSRacing-Setup-*.log`. Dane i poprzednie wersje są zachowywane również przy odinstalowaniu.
 
+
+## Prezentacja Buttonboxa
+
+![Studio — podgląd lokalny bez podłączonych paneli](images/studio-r100.png)
+
+Trzy okrągłe ekrany, wspólna kolorystyka i osobne ustawienia czytelności. Studio obsługuje prezentacje samochodów, zegarki, stoper oraz tryby STANDART i Breitling Racing. Interfejs i komunikaty paneli mają wybór języka polskiego, niemieckiego i angielskiego. Podgląd odwzorowuje projekt z matowym czarnym aluminium i błyszczącą maskownicą z karbonu.
+
+Zrzut pokazuje rzeczywisty interfejs w podglądzie lokalnym. Ostateczne złożenie obudowy i testy nowej komunikacji RS485 oraz zegara DS3231 pozostają w toku; nie są potwierdzonymi funkcjami tej paczki instalacyjnej.
+
+## Dokumentacja techniczna i dostęp
+
+Instalator oraz ta prezentacja są publiczne. Modele Fusion, pliki produkcyjne, schematy i pełna broszura znajdują się w osobnym prywatnym repozytorium, udostępnianym indywidualnie po zgodzie właściciela. Kod źródłowy pozostaje niepubliczny. W sprawie dostępu można otworzyć zgłoszenie w tym repozytorium, podając nazwę konta GitHub — bez prywatnych danych i załączników technicznych.
+
 ## Deutsch
 
 [Windows-Installer herunterladen](https://github.com/dareksteuer/dsracing-studio-releases/releases/latest/download/DSRacingStudio-Setup.exe). Datei öffnen, Sprache wählen und installieren. Studio vorher schließen. Fehlendes WebView2 wird mit Internetzugang installiert. Profile bleiben erhalten. Keine Firmware-Aktualisierung; SimHub wird separat eingerichtet. Das Programm ist nicht digital signiert.
